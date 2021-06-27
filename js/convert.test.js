@@ -6,5 +6,6 @@ describe('Test to convert base 10 numbers to base 2', () => {
         expect(convert(5)).toBe('101')
         expect(convert(17)).toBe('10001')
         expect(convert(106)).toBe('1101010')
+        expect(convert(1068)).toBe('10000101100')
     })
 })

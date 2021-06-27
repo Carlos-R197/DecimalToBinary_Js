@@ -11,7 +11,7 @@ function convert(number) {
     i++
   }
 
-  return array.reverse().join()
+  return array.reverse().join('')
 }
 
 module.exports = convert
